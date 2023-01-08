@@ -12,7 +12,7 @@ CreateThread(function()
             coords = v.coords,
             size = vec3(v.length, v.length, v.length),
             rotation = 45,
-            debug = true,
+            debug = false,
             inside = insideZone,
             onEnter = onEnter,
             onExit = onExit
