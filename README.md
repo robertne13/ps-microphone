@@ -1,4 +1,8 @@
 ![image](https://user-images.githubusercontent.com/82112471/191800203-0563a725-4b6a-4caf-9d3b-29239960b0d6.png)
+[EDIT]
+REAL CREATOR:
+https://github.com/Project-Sloth/ps-microphone
+Modified to use ox_lib instead ps-zone script
 
 # ps-microphone
 Script to enhance as a microphone/loudspeaker when an user enters a define zoned. 
@@ -32,9 +36,8 @@ Config.MicrophoneZones = {
             heading = 340, -- heading from created boxzone
             minZ = 127.86, --minZ from the created boxzone
             maxZ = 131.86, -- maxZ from the created boxzone
-            data = {
-                range = 50.0 -- range for the voice at that particular boxzone
-            }
+            range = 50.0 -- range for the voice at that particular boxzone
+
         }
     }
 }
@@ -42,10 +45,10 @@ Config.MicrophoneZones = {
 
 # Dependecies
 * Latest [pma-voice](https://github.com/AvarianKnight/pma-voice) 
-* [ps-zones](https://github.com/Project-Sloth/ps-zones)
-* [lj-inventory](https://github.com/loljoshie/lj-inventory)
+* [ox_lib](https://github.com/overextended/ox_lib)
 
 # Credits 
+* [ProjectSloth] (https://github.com/Project-Sloth)
 * [Snipe](https://github.com/pushkart2)
 * [Devyn](https://github.com/darktrovx)
 * [not jay](https://github.com/jay-fivem)
