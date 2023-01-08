@@ -36,9 +36,8 @@ Config.MicrophoneZones = {
             heading = 340, -- heading from created boxzone
             minZ = 127.86, --minZ from the created boxzone
             maxZ = 131.86, -- maxZ from the created boxzone
-            data = {
-                range = 50.0 -- range for the voice at that particular boxzone
-            }
+            range = 50.0 -- range for the voice at that particular boxzone
+
         }
     }
 }
